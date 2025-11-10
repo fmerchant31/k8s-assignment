@@ -1,0 +1,14 @@
+datadog:
+  apiKey: "<DATADOG_API_KEY>"
+  site: datadoghq.com
+  clusterName: test-eks-cluster
+  logs:
+    enabled: true
+  apm:
+    enabled: true
+  processAgent:
+    enabled: true
+
+agents:
+  containerLogs:
+    enabled: true
